@@ -9,7 +9,7 @@ shrep_lose = shrift.render('Шрепа не крутая ',True,(13, 235, 9))
 W = 700
 H = 700
 window = display.set_mode((W, H))
-backround = transform.scale(image.load('background.jpg'),(W, H)) 
+backround = transform.scale(image.load('фон.png'),(W, H)) 
 lose_backround =transform.scale(image.load('наташа.jpeg'),(W, H)) 
 window.blit(backround,(0,0))
 mixer.music.load('jungles.ogg')
@@ -106,7 +106,7 @@ wall_16 = Wall(x=100,y=140,w=30,h=460,color=(225,0,250))
 wall_17 = Wall(x=115,y=500,w=125,h=30,color=(225,0,250))
 wall_18 = Wall(x=115,y=140,w=100,h=30,color=(225,0,250))
 wall_19 = Wall(x=0,y=80,w=120,h=30,color=(225,0,250))
-#wall_20 = Wall(x=90,y=50,w=30,h=30,color=(225,0,250))
+wall_20 = Wall(x=90,y=50,w=30,h=30,color=(225,0,250))
 
 game_mode = 'game'
 
